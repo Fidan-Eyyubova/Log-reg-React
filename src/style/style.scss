@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Norican&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", serif;
+  background: rgb(52, 25, 29);
+  background: linear-gradient(
+    140deg,
+    rgba(52, 25, 29, 1) 18%,
+    rgba(110, 8, 30, 1) 100%,
+    rgba(1, 8, 20, 1) 100%
+  );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background-color: #b3c8cf;
+  .wrapper {
+    background-color: #f1f0e8;
+    width: 28%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #2a3663;
+    h2 {
+      padding: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2em;
+      input {
+        width: 240px;
+        border: none;
+        background-color: #f1f0e8;
+        border-bottom: 2px solid #89a8b2;
+        margin-left: 13px;
+        outline: none;
+      }
+      .icon {
+        color: #2a3663;
+        position: relative;
+        top: -6px;
+        right: 15px;
+      }
+      label {
+        color: #441752;
+        font-weight: bold;
+      }
+      button {
+        background-color: #2a3663;
+        color: white;
+        font-weight: bold;
+        border: none;
+        height: 30px;
+        margin: 0px 30px;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+      }
+    }
+    .foot {
+      font-weight: bold;
+      .login {
+        text-decoration: none;
+      }
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 30px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 10px;
+      border: 1px solid #2a3663;
+    }
+  }
+}
+
+.contain-fluid {
+  .header {
+    height: 580px;
+    h1 {
+      font-size: 100px;
+      font-weight: bold;
+      span {
+        border-bottom: 10px solid #fab758;
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      border: none;
+      color: black;
+      font-weight: bold;
+      background-color: white;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+  }
+}
+.not-found {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(52, 25, 29);
+  background: linear-gradient(
+    140deg,
+    rgba(52, 25, 29, 1) 18%,
+    rgba(110, 8, 30, 1) 100%,
+    rgba(1, 8, 20, 1) 100%
+  );
+  color: white;
+  h1 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  button {
+    font-size: 20px;
+    background-color: #c62e2e;
+    border: none;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    .home {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+.login-form {
+  min-height: 100vh;
+}
+.body {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  h3 {
+    font-size: 35px;
+  }
+  button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #c62e2e;
+  }
+  a {
+    text-decoration: none;
+    color: #c62e2e;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
+
+.navbar {
+  img {
+    width: 200px;
+  }
+  a {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  i {
+    color: white;
+  }
+  button {
+    background-color: #c62e2e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    .reg {
+      text-decoration: none;
+    }
+  }
+}
+.home {
+  height: 712px;
+  .header-head {
+    margin-top: 150px;
+    h1 {
+      color: white;
+      font-size: 60px;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+    }
+    button {
+      background-color: #c62e2e;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      width: 150px;
+      font-weight: bold;
+    }
+  }
+  .reg {
+    margin-left: 30px;
+  }
+}
+
